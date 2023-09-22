@@ -1,6 +1,6 @@
 ﻿/*
  ###############################################################################################################
- # I used nested loops to build the shape of a chessboard.                                                     #                                                #
+ # I used nested loops to build the shape of a chessboard.                                                     #                                               
  # The reason is because the board is a two-dimensional pattern.It consists of rows and columns.               #
  # And to represent it programmatically,I had to understand how matrices, algorithms, and coordinates work.    #
  # It may be complicated, but it is worth it.                                                                  #
@@ -99,9 +99,9 @@ namespace ChessBoard
 
             /*
            # ########################################################################################################### #
-           # Using LINQ and Char.IsDigit to filter out non-digit characters from the input string.                       #                              #                                                #
-           # After searching a little, I discovered more than one method, for example, a two-dimensional Array           #                            #
-           # but what came to my mind is that it is possible to use an easier method, which is to delete the letter from #                                     #
+           # Using LINQ and Char.IsDigit to filter out non-digit characters from the input string.                       #                                                                            
+           # After searching a little, I discovered more than one method, for example, a two-dimensional Array           #                            
+           # but what came to my mind is that it is possible to use an easier method, which is to delete the letter from #                                    
            # the value that the user entered and rely on the number only.                                                #
            #  This is what you will discover if you write only the movement number without a letter                      #
            # ########################################################################################################### #
